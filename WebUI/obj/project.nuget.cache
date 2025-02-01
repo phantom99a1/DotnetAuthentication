@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "foih1KIldbwSi70XQSrmrnE/xZBa31FkTM+EjMhONFrrGCXELz555x0CDdgaicvDgteLMB+N3F/SqLan58MzsQ==",
+  "success": true,
+  "projectFilePath": "D:\\Dotnet Authentication\\WebUI\\WebUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FTC Laptop\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\FTC Laptop\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\FTC Laptop\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\FTC Laptop\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\FTC Laptop\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\FTC Laptop\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
