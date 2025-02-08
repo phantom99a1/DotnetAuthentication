@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Dotnet Authentication\\WebUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|d:\\dotnet authentication\\webui\\domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|solutionrelative:domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|d:\\dotnet authentication\\webui\\domain\\request\\refreshtokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|solutionrelative:domain\\request\\refreshtokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,14 +83,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\Dotnet Authentication\\WebUI\\Domain\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\ApplicationUser.cs",
-              "ToolTip": "D:\\Dotnet Authentication\\WebUI\\Domain\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "Domain\\Entities\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "Title": "RefreshTokenRequest.cs",
+              "DocumentMoniker": "D:\\Dotnet Authentication\\WebUI\\Domain\\Request\\RefreshTokenRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\Request\\RefreshTokenRequest.cs",
+              "ToolTip": "D:\\Dotnet Authentication\\WebUI\\Domain\\Request\\RefreshTokenRequest.cs",
+              "RelativeToolTip": "Domain\\Request\\RefreshTokenRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T16:46:00.758Z",
+              "WhenOpened": "2025-02-08T07:46:31.739Z",
               "EditorCaption": ""
             }
           ]
