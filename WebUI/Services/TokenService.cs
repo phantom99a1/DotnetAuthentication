@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using WebUI.Domain.Contracts;
 using WebUI.Domain.Entities;
@@ -53,6 +54,22 @@ namespace WebUI.Services
             throw new NotImplementedException();
         }
 
+        private async Task<List<Claim>> GetClaimsAsync(ApplicationUser user)
+        {
+            var claims = new List<Claim>
+            {
+                new(ClaimTypes.Name, user?.UserName ?? string.Empty),
+                new(ClaimTypes.NameIdentifier, user?.Id ?? string.Empty),
+                new(ClaimTypes.Email, user?.Email ?? string.Empty),
+                new("FirstName", user?.FirstName ?? string.Empty),
+                new("LastName", user?.LastName ?? string.Empty),
+                new("Gender", user?.Gender ?? string.Empty)
+            };
+            var roles = await _userManager.GetRolesAsync(user!);
+            claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
+            return claims;
+        }
+
         private JwtSecurityToken GenerateTokenOptions(SigningCredentials signingCredentials, List<Claim> claims)
         {
             return new JwtSecurityToken(
@@ -64,9 +81,22 @@ namespace WebUI.Services
             );            
         } 
 
-        public Task<string> GenerateToken(ApplicationUser user)
+        public async Task<string> GenerateToken(ApplicationUser user)
         {
-            throw new NotImplementedException();
+            var signingCredentials = new SigningCredentials(_symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
+            var claims = await GetClaimsAsync(user);
+            var tokenOptions = GenerateTokenOptions(signingCredentials, claims);
+            return new JwtSecurityTokenHandler().WriteToken(tokenOptions);
+        }
+
+        public string GenerateRefreshToken()
+        {
+            var randomNumber = new byte[64];
+            using var rng = RandomNumberGenerator.Create();
+            rng.GetBytes(randomNumber);
+
+            var refreshToken = Convert.ToBase64String(randomNumber);
+            return refreshToken;
         }
     }
 }
