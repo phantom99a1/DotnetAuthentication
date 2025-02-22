@@ -2,6 +2,8 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 using WebUI.Domain.Contracts;
 using WebUI.Domain.Entities;
@@ -50,6 +52,17 @@ namespace WebUI.Services
         {
             throw new NotImplementedException();
         }
+
+        private JwtSecurityToken GenerateTokenOptions(SigningCredentials signingCredentials, List<Claim> claims)
+        {
+            return new JwtSecurityToken(
+                issuer: _validIssuer,
+                audience: _validAudience,
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(_expires),
+                signingCredentials: signingCredentials
+            );            
+        } 
 
         public Task<string> GenerateToken(ApplicationUser user)
         {

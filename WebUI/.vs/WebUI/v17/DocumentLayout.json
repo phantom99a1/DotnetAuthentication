@@ -14,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 15,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\Dotnet Authentication\\WebUI\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "Services\\TokenService.cs",
-              "ToolTip": "D:\\Dotnet Authentication\\WebUI\\Services\\TokenService.cs",
-              "RelativeToolTip": "Services\\TokenService.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwDAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:14:05.281Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -88,6 +75,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Dotnet Authentication\\WebUI\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "D:\\Dotnet Authentication\\WebUI\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAQwD4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T08:14:05.281Z",
+              "EditorCaption": ""
             }
           ]
         }
