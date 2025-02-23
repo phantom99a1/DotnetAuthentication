@@ -51,7 +51,12 @@ namespace WebUI.Services
         /// <returns>The generated refresh token.</returns>
         public string GenerateRefreshToken()
         {
-            throw new NotImplementedException();
+            var randomNumber = new byte[64];
+            using var rng = RandomNumberGenerator.Create();
+            rng.GetBytes(randomNumber);
+
+            var refreshToken = Convert.ToBase64String(randomNumber);
+            return refreshToken;
         }
 
         private async Task<List<Claim>> GetClaimsAsync(ApplicationUser user)
@@ -87,16 +92,6 @@ namespace WebUI.Services
             var claims = await GetClaimsAsync(user);
             var tokenOptions = GenerateTokenOptions(signingCredentials, claims);
             return new JwtSecurityTokenHandler().WriteToken(tokenOptions);
-        }
-
-        public string GenerateRefreshToken()
-        {
-            var randomNumber = new byte[64];
-            using var rng = RandomNumberGenerator.Create();
-            rng.GetBytes(randomNumber);
-
-            var refreshToken = Convert.ToBase64String(randomNumber);
-            return refreshToken;
-        }
+        }        
     }
 }

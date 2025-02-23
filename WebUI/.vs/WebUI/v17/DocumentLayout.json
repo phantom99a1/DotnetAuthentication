@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|d:\\dotnet authentication\\webui\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|d:\\dotnet authentication\\webui\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|d:\\dotnet authentication\\webui\\infrastructure\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|solutionrelative:infrastructure\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|d:\\dotnet authentication\\webui\\domain\\response\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DC60B3-E2AA-4699-A2C7-CDACEA8CC1B3}|WebUI.csproj|solutionrelative:domain\\response\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 17,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Dotnet Authentication\\WebUI\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "D:\\Dotnet Authentication\\WebUI\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAtwFoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T18:18:09.677Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -88,6 +87,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "D:\\Dotnet Authentication\\WebUI\\Domain\\Response\\UserResponse.cs",
+              "RelativeDocumentMoniker": "Domain\\Response\\UserResponse.cs",
+              "ToolTip": "D:\\Dotnet Authentication\\WebUI\\Domain\\Response\\UserResponse.cs",
+              "RelativeToolTip": "Domain\\Response\\UserResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T09:20:31.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Dotnet Authentication\\WebUI\\Infrastructure\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\Dotnet Authentication\\WebUI\\Infrastructure\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Infrastructure\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T09:20:09.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Dotnet Authentication\\WebUI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "D:\\Dotnet Authentication\\WebUI\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAvwKoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T08:50:09.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Dotnet Authentication\\WebUI\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\Dotnet Authentication\\WebUI\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T08:47:29.069Z",
+              "EditorCaption": ""
             }
           ]
         }

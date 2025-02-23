@@ -7,8 +7,8 @@
         public string LastName { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string Gender { get; set; } = string.Empty;
-        public DateTime CreateAt { get; set; }
-        public DateTime UpdateAt { get; set; }
+        public DateTime? CreateDateTime { get; set; }
+        public DateTime? LastModifiedDateTime { get; set; }
         public string? AccessToken { get; set; }
         public string? RefreshToken { get; set; }
     }
